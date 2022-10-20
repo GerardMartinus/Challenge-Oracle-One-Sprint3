@@ -1,0 +1,11 @@
+.pagina__produtos{
+    background-color: #F5F5F5;
+    padding: 2rem 2rem;
+}
+
+.produtos__adicionar-produto{
+    padding: 1rem;
+    background-color: #2A7AE4;
+    color: #fff;
+    text-decoration: none;
+}
