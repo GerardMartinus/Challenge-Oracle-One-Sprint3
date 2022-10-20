@@ -63,6 +63,12 @@ footer {
     color: #F5F5F5;
 }
 
+.top-footer a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+}
+
 footer div {
     padding: 0.5rem;
     position: relative;

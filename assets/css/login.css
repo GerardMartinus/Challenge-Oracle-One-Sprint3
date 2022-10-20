@@ -1,0 +1,29 @@
+#login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    background-color: #F5F5F5;
+}
+
+#login input {
+    width: 20rem;
+    height: 3rem;
+    margin: 10px;
+    border: none;
+    padding: 0 0 0 5px;
+}
+
+#login input[type=submit] {
+    background-color: #2A7AE4;
+    color: #F5F5F5;
+}
+
+
+.login-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
