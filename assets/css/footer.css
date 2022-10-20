@@ -1,0 +1,89 @@
+.pre-footer {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #EAF2FD;
+    padding: 2rem;
+}
+
+.pre-footer ul li a{
+    text-decoration: none;
+    color: #464646;
+}
+
+.pre-footer ul li {
+    list-style: none;
+    padding: 5px;
+
+}
+
+.pre-footer form {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.pre-footer h3 {
+    padding: 0 0 5px 0;
+}
+
+.pre-footer input[type=text] {
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+}
+
+.pre-footer textarea {
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    height: 100px;
+}
+
+.pre-footer input[type=submit] {
+    background-color: #2A7AE4;
+    border-radius: 5px;
+    color: #EAF2FD;
+    border: none;
+    height: 40px;
+    margin: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #464646;
+    padding: 2rem;
+
+    color: #F5F5F5;
+}
+
+footer div {
+    padding: 0.5rem;
+    position: relative;
+}
+
+@media (max-width: 975px) {
+
+    .pre-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pre-footer input[type=text]{
+        width: 85vw;
+    }
+
+    .pre-footer textarea{
+        width: 85vw;
+    }
+
+    .pre-footer input[type=submit]{
+        width: 50vw;
+    }
+}

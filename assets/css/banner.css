@@ -1,0 +1,100 @@
+.banner{
+    position: relative;
+}
+
+.banner__imagem {
+    background: url('../img/hero.png') no-repeat center / cover;
+    height: calc(100vh - 72px);
+    width: 100%;
+}
+
+.banner__titulo{
+    color: #fdfdfd;
+    font-family: 'Raleway', sans-serif;
+    font-size: 5.0625rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.banner__texto {
+    color: #fdfdfd;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.banner__botao {
+    background-color: #2A7AE4;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+
+    font-size: 1.5rem;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    text-align: center;
+
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+}
+
+@media screen and (min-width: 0) {
+    .banner__titulo {
+        font-size: 3rem;
+    }
+    .banner__texto {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .banner__titulo {
+        font-size: 5.0625rem;
+    }
+
+    .banner__texto {
+        font-size: 2rem;
+    }
+
+}
+
+.sobre__titulo {
+    color: #8d0606;
+    font-family: Pacifico, cursive;
+
+}
+
+@media screen and (min-width: 0px) {
+    .sobre__titulo {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__titulo {
+        font-size: 3.1875rem;
+    }
+}
+
+@media screen and (min-width: 0) {
+    .banner__imagem {
+        height: calc(100vh - 51px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagem {
+        height: calc(100vh - 72px);
+    }
+}

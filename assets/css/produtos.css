@@ -1,0 +1,45 @@
+.produtos{
+    padding: 0 5rem;
+}
+
+.produtos__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.produtos__lista-titulo{
+    color: #464646;
+    font-size: 2em;
+}
+
+.produtos__ver-tudo{
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #2A7AE4;
+}
+
+.produtos__lista{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lista__card figcaption{
+    color: #464646;
+}
+
+.lista__card p{
+    font-weight: bold;
+    color: #464646;
+}
+
+.lista__card a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #2A7AE4;
+}
+
