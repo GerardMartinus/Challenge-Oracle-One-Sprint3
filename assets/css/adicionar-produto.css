@@ -1,0 +1,40 @@
+#adicionar-produto{
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 22rem;
+    width: 100%;
+    padding: 10rem 0;
+}
+
+.adicionar__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.adicionar__content input[type=text]{
+    width: 40vw;
+    height: 2rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.adicionar__content input[type=submit]{
+    background-color: #2A7AE4;
+    color: #fff;;
+    margin: 1rem 0;
+    width: 40vw;
+    height: 2.5rem;
+
+    border-radius: 10px;
+    transition: all .3s ease-out;
+
+}
+
+.label-float:nth-child(5) input[type=text]{
+    height: 7rem;
+}
+
