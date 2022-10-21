@@ -1,0 +1,79 @@
+.menu-lateral{
+    background-color: #2A7AE4;
+    width: 5rem;
+    float: left;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+}
+
+.menu-lateral__content{
+    position: relative;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menu-lateral__content li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.perfil{
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem 0 11.25rem;
+    flex-direction: column;
+}
+
+.perfil h2{
+    padding: 2rem 0;
+    color: #464646;
+}
+
+.perfil__container{
+    position: relative;
+    width: 90%;
+    height: 66vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.alterar-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 22rem;
+    padding: 14.5rem 0;
+}
+
+.alterar-perfil input[type=text]{
+    width: 40vw;
+    height: 2rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+
+
+.form input[type=submit]{
+    background-color: #2A7AE4;
+    color: #fff;
+    padding: 1rem 5rem;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 900px) {
+    .alterar-foto img{
+        display: none;
+    }
+}

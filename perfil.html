@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/cabecalho.css">
     <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/perfil.css">
+    <link rel="stylesheet" href="assets/css/label-float.css">
 </head>
 
 <body>
@@ -26,19 +27,47 @@
         <nav class="menu">
             <ul class="menu-lista">
                 <li class="menu__item"><input type="text" name="" id="" placeholder="O que deseja encontrar?"></li>
-                <li class="menu__item"><a href="login.html">Login</a></li>
+                <li class="menu__item"><a href="perfil.html">Bem vindo, Bruno!</a></li>
             </ul>
         </nav>
     </header>
 
-    <main id="login">
-        <h3>Iniciar Sessão</h3>
-        <div class="login-content">
-            <input type="email" name="" id="" placeholder="Digite seu email">
-            <input type="password" name="" id="" placeholder="Digite sua senha">
-            <a href="perfil.html"><input type="submit" value="Entrar"></a>
+    <aside class="menu-lateral">
+        <ul class="menu-lateral__content">
+            <li>Olá, Bruno</li>
+            <li><a href="perfil.html">Editar o perfil</a></li>
+            <li><a href="produtos.html">Página de produtos</a></li>
+            <li><a href="adicionar-produto.html">Adicionar produto</a></li>
+        </ul>
+    </aside>
+
+    <section class="perfil">
+        <h2>Perfil</h2>
+        <div class="perfil__container">
+            <div class="alterar-foto">
+                <img src="assets/img/perfil.png" alt="">
+            </div>
+            <div class="alterar-perfil">
+                <div class="form">
+                    <div class="label-float">
+                        <input type="text" name="" id="" placeholder=" ">
+                        <label>Nome</label>
+                    </div>
+                    <div class="label-float">
+                        <input type="text" name="" id="" placeholder=" ">
+                        <label>E-mail</label>
+                    </div>
+                    <div class="label-float">
+                        <input type="text" name="" id="" placeholder=" ">
+                        <label>Telefone</label>
+                    </div>
+                    <div>
+                         <input type="submit" value="Salvar">
+                    </div>
+                </div>
+            </div>
         </div>
-    </main>
+    </section>
 
     <section class="pre-footer">
         <div class="logo">
@@ -72,6 +101,7 @@
             AluraGeek &copy 2022
         </div>
     </footer>
+
 </body>
 
 </html>
